@@ -1,0 +1,15 @@
+
+    Provides Bioinformatics software.
+    For more information please use:
+
+        $ module help Bioinformatics
+
+
+(ERR): "hg38" does not exist or is not a Bowtie 2 index
+Exiting now ...
+[E::hts_open_format] Failed to open file "p27_hg38.sam" : No such file or directory
+samtools view: failed to open "p27_hg38.sam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file "p27_hg38.bam" : No such file or directory
+samtools sort: can't open "p27_hg38.bam": No such file or directory
+[E::hts_open_format] Failed to open file "p27_hg38.sorted.bam" : No such file or directory
+samtools index: failed to open "p27_hg38.sorted.bam": No such file or directory

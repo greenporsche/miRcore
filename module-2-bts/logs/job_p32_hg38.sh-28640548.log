@@ -1,0 +1,21 @@
+
+    Provides Bioinformatics software.
+    For more information please use:
+
+        $ module help Bioinformatics
+
+
+1025000 reads; of these:
+  1025000 (100.00%) were unpaired; of these:
+    70902 (6.92%) aligned 0 times
+    148252 (14.46%) aligned exactly 1 time
+    805846 (78.62%) aligned >1 times
+93.08% overall alignment rate
+(ERR): "../sars2" does not exist or is not a Bowtie 2 index
+Exiting now ...
+[E::hts_open_format] Failed to open file "p32_sars2.sam" : No such file or directory
+samtools view: failed to open "p32_sars2.sam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file "p32_sars2.bam" : No such file or directory
+samtools sort: can't open "p32_sars2.bam": No such file or directory
+[E::hts_open_format] Failed to open file "p32_sars2.sorted.bam" : No such file or directory
+samtools index: failed to open "p32_sars2.sorted.bam": No such file or directory

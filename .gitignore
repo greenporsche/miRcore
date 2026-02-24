@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# Lecture transcripts (copyrighted miRcore camp content)
+**/transcripts/
+
+# Large sequencing data files (exceed GitHub 100MB limit)
+*.bam
+*.bam.bai
+*.sam
+*.samc
+*.fq
+*.fq.gz
+*.tgz
+*.zip
+*.bt2
+*.bcf
+*.vcf
+*.vcf.gz
+*.fa
+
+# Module 3 (SEQ) logs — personal genome processing metadata
+# The camp promises students are the sole custodian of their genomic data.
+module-3-seq/logs/

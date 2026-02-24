@@ -1,0 +1,19 @@
+
+    Provides Bioinformatics software.
+    For more information please use:
+
+        $ module help Bioinformatics
+
+
+1000000 reads; of these:
+  1000000 (100.00%) were unpaired; of these:
+    77874 (7.79%) aligned 0 times
+    98246 (9.82%) aligned exactly 1 time
+    823880 (82.39%) aligned >1 times
+92.21% overall alignment rate
+77874 reads; of these:
+  77874 (100.00%) were unpaired; of these:
+    75392 (96.81%) aligned 0 times
+    2482 (3.19%) aligned exactly 1 time
+    0 (0.00%) aligned >1 times
+3.19% overall alignment rate

@@ -1,0 +1,25 @@
+
+    Provides Bioinformatics software.
+    For more information please use:
+
+        $ module help Bioinformatics
+
+
+(ERR): "/scratch/mircore_project_root/mircore_project2/GRCh38_noalt_as/GRCh38_noalt_as" does not exist or is not a Bowtie 2 index
+Exiting now ...
+[E::hts_open_format] Failed to open file "p32_hg38.sam" : No such file or directory
+samtools view: failed to open "p32_hg38.sam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file "p32_hg38.bam" : No such file or directory
+samtools sort: can't open "p32_hg38.bam": No such file or directory
+[E::hts_open_format] Failed to open file "p32_hg38.sorted.bam" : No such file or directory
+samtools index: failed to open "p32_hg38.sorted.bam": No such file or directory
+stat: Bad file descriptor
+Warning: Could not open read file "un_p32_hg38.fq" for reading; skipping...
+Error: No input read files were valid
+(ERR): bowtie2-align exited with value 1
+[E::hts_open_format] Failed to open file "sars2_p32.sam" : No such file or directory
+samtools view: failed to open "sars2_p32.sam" for reading: No such file or directory
+[E::hts_open_format] Failed to open file "sars2_p32.bam" : No such file or directory
+samtools sort: can't open "sars2_p32.bam": No such file or directory
+[E::hts_open_format] Failed to open file "sars2_p32.sorted.bam" : No such file or directory
+samtools index: failed to open "sars2_p32.sorted.bam": No such file or directory
