@@ -1,5 +1,7 @@
 # BTS Track (Biotech Startup) -- Detailed Analysis
 
+> **Note:** The study guides, exercises, and cheat sheets in the `curriculum/` folder are my own self-generated study materials, not official miRcore content. See the [root README](../README.md) for details.
+
 ## Track Overview
 
 The Biotechnology Startup (BTS) track is the second week of the miRcore summer camp curriculum. It targets high school students in grades 9 through 12, with most students having completed the CB track the previous week. BTS shifts from the database-driven analysis of CB to hands-on command-line bioinformatics and sequencing data processing. The track is co-led by Dr. Inhan Lee and Vina, with a team of group leaders providing breakout room support.
@@ -24,7 +26,7 @@ The Biotechnology Startup (BTS) track is the second week of the miRcore summer c
 **Morning Session (Part 1)**
 
 *Main Topics:*
-- Welcome and camp context: "I was thinking about this camp this morning... we are going to teach high school students how to use UM Linux cluster today. I was so excited."
+- Welcome and camp context: Dr. Lee opens with genuine enthusiasm about teaching high school students to use the UM Linux cluster, setting an encouraging tone for the week
 - Review of why students are here: learning to do real research, not school-style exercises
 - Biotechnology overview: broad definition (using biological systems to develop products)
   - Insulin production: first biotech product, recombinant DNA technology in E. coli
@@ -225,7 +227,7 @@ The Biotechnology Startup (BTS) track is the second week of the miRcore summer c
 **Morning Session (Part 1)**
 
 *Main Topics:*
-- Review of Bowtie2 and SAMtools workflow: "Yesterday we found if the data sequence contains SARS-CoV-2 genome using Bowtie2"
+- Review of Bowtie2 and SAMtools workflow, building on the previous day's discovery of SARS-CoV-2 sequences
 - Loading bioinformatics modules on the cluster: `module load` for Bowtie2 and SAMtools
 - IGV (Integrative Genomics Viewer) introduction:
   - Desktop application for visualizing aligned sequencing data
@@ -239,7 +241,7 @@ The Biotechnology Startup (BTS) track is the second week of the miRcore summer c
   - Job parameters: partition, time, memory, CPU cores, email notifications
   - `sbatch` command: submitting scripts to the job scheduler
   - Monitoring jobs: email notifications (begin, end, fail), resource usage reports
-  - Converting interactive work to batch jobs: "I confirmed this is working on my computer, now we submit it as a job"
+  - Converting interactive work to batch jobs -- once a command is confirmed to work interactively, it gets packaged into a SLURM script for submission
 - Mapping reads to the human genome (HG38 reference):
   - Why HG38? The current human reference genome assembly
   - Much larger than viral genomes: requires more computational resources
@@ -323,7 +325,7 @@ The Biotechnology Startup (BTS) track is the second week of the miRcore summer c
 *Main Topics:*
 - Final business pitch presentations with investment simulation:
   - Each group presents their biotech startup pitch (5--8 minutes)
-  - Business pitches observed in transcripts include: CRISPR-based therapeutics, rapid diagnostic testing, genomic data platforms
+  - Business pitches observed in sessions include: CRISPR-based therapeutics, rapid diagnostic testing, genomic data platforms
   - After all pitches: investment simulation where students allocate virtual investment dollars to the startups they find most compelling
   - Discussion of why certain pitches were more convincing (clear problem, viable solution, realistic market)
 - Research presentations:
@@ -475,17 +477,11 @@ On Day 5, after all pitches are presented, students participate in an investment
 
 ## Instructor Notes: Teaching Strategies and Pedagogical Approaches
 
-### "I Feel Like a Hacker" Moment
-Dr. Lee explicitly aims for the transformative experience of students realizing they can use a command line: "I hope you will get that kind of excitement after today. It's like, oh, I feel like a hacker." This framing -- presenting Linux skills as empowering rather than intimidating -- is a deliberate strategy for engaging students who may have no prior programming experience.
+### The Empowerment Moment
+Dr. Lee explicitly aims for a transformative experience where students realize they can use a command line. The goal is for students to feel empowered and capable -- presenting Linux skills as exciting rather than intimidating. This is a deliberate strategy for engaging students who may have no prior programming experience.
 
 ### Incremental Pipeline Construction
 The technical pipeline is built up incrementally over Days 2--4, with each day adding one or two new steps. Students do not see the full pipeline at once; they build it piece by piece, ensuring they understand each component before moving on. By Day 4, they can execute the complete workflow because they understand what each step does.
 
-### Hybrid Challenges
-The transcripts reveal persistent challenges with the hybrid format: audio issues between in-person and virtual students, coordinating breakout rooms across modalities, ensuring virtual students can follow along with command-line demonstrations. The instructors adapt continuously, using Zulip as a backup communication channel and having group leaders provide individualized support.
-
-### Troubleshooting as Pedagogy
-Command-line work inevitably produces errors, and the transcripts show instructors leaning into this. When students encounter errors (wrong directory, typos in commands, failed alignments), group leaders guide them through debugging rather than simply providing the correct command. This problem-solving experience is itself a valuable learning outcome.
-
 ### Connecting to CB
-For students who completed CB the previous week, BTS instructors frequently reference CB concepts: "Most of you guys had a CB camp last week... remember why we are here." This reinforcement helps students see the connections between database-driven analysis (CB) and the data production pipeline (BTS).
+For students who completed CB the previous week, BTS instructors frequently reference CB concepts. This reinforcement helps students see the connections between database-driven analysis (CB) and the data production pipeline (BTS).

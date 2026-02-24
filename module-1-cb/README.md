@@ -1,5 +1,7 @@
 # CB Track (Computational Biology) -- Detailed Analysis
 
+> **Note:** The study guides, exercises, and cheat sheets in the `curriculum/` folder are my own self-generated study materials, not official miRcore content. See the [root README](../README.md) for details.
+
 ## Track Overview
 
 The Computational Biology (CB) track is the entry point to the miRcore summer camp curriculum. It targets high school students in grades 9 through 12 with no prerequisite bioinformatics experience. Over five days (10 sessions), students progress from foundational biology concepts to independent gene expression analysis using real public datasets. The track is led by Dr. Inhan Lee, with Vina (a Johns Hopkins alumna) serving as camp coordinator and facilitator, supported by a team of undergraduate and graduate student group leaders.
@@ -337,13 +339,13 @@ During the parent showcase, students hear each other's presentations and ask que
 ## Instructor Notes: Teaching Strategies and Pedagogical Approaches
 
 ### Scaffolded Complexity
-The curriculum is carefully scaffolded. Day 1 concepts (genes, diseases) are intuitive and accessible. Statistics on Day 3 is acknowledged as potentially challenging ("we know that all of you have different levels of math experience"), and students are repeatedly told to ask questions. Technical vocabulary is introduced gradually and reinforced through the cheat sheet system.
+The curriculum is carefully scaffolded. Day 1 concepts (genes, diseases) are intuitive and accessible. Statistics on Day 3 is acknowledged as potentially challenging, with instructors noting the range of math experience in the room and encouraging students to ask questions. Technical vocabulary is introduced gradually and reinforced through the cheat sheet system.
 
 ### Translating Academic Language
-A notable pedagogical practice observed in the transcripts: group leaders help students translate research paper abstracts from technical jargon into "regular words." This explicit exercise in scientific literacy -- taking dense academic language and making it comprehensible -- is a valuable skill that most students do not encounter until much later in their education.
+A notable pedagogical practice observed in the sessions: group leaders help students translate research paper abstracts from technical jargon into "regular words." This explicit exercise in scientific literacy -- taking dense academic language and making it comprehensible -- is a valuable skill that most students do not encounter until much later in their education.
 
 ### Affective Support
-Instructors invest significant time in community building. Daily brain reloads (Zulip polls about lunch, fun questions) serve a dual purpose: they get students active on the communication platform and they create a warm, personal atmosphere. Vina's persistent concern about students who skip meals ("Patrick, why do you do this to me?") exemplifies the caring culture. This affective support reduces the anxiety that can accompany challenging technical content.
+Instructors invest significant time in community building. Daily brain reloads (Zulip polls about lunch, fun questions) serve a dual purpose: they get students active on the communication platform and they create a warm, personal atmosphere. The instructors' genuine concern for students' wellbeing -- including checking in on those who skip meals -- exemplifies the caring culture. This affective support reduces the anxiety that can accompany challenging technical content.
 
 ### Small-Group Mentorship Model
 The breakout room structure -- 3--5 students per group leader -- ensures personalized attention. Group leaders are miRcore alumni, typically undergraduates at research universities, who understand the material deeply but are close enough in age to relate to the students. They function as peer mentors rather than traditional instructors, creating a less intimidating learning environment.

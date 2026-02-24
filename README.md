@@ -1,5 +1,7 @@
 # miRcore 2025 Summer Camp -- Full Curriculum Map
 
+> **Note:** The READMEs, study guides, exercises, and cheat sheets in this repository are **my own study materials**, created independently for personal review and practice after attending the miRcore summer camp. They are not official miRcore curriculum, publications, or instructional materials. All original course content remains the intellectual property of miRcore and Dr. Inhan Lee.
+
 ## Program Overview
 
 miRcore is a nonprofit organization founded and led by Dr. Inhan Lee (PhD, Biomedical Engineering) that connects the public to real scientific research through hands-on bioinformatics education. Since 2011, miRcore has educated high school students through summer camps, volunteer programs, school outreach clubs (Genes in Disease and Symptoms / GIDAS), and a multi-year research pipeline that culminates in student presentations at professional research conferences alongside world-leading scientists.

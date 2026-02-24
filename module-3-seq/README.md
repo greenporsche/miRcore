@@ -1,5 +1,7 @@
 # SEQ Track (Sequencing Your Genome) -- Detailed Analysis
 
+> **Note:** The study guides, exercises, and cheat sheets in the `curriculum/` folder are my own self-generated study materials, not official miRcore content. See the [root README](../README.md) for details.
+
 ## Track Overview
 
 The Sequencing Your Genome (SEQ) track is the culminating experience of the miRcore summer camp curriculum. Restricted to 11th and 12th graders who have completed both the CB and BTS tracks, SEQ is where students apply everything they have learned to the most personal dataset imaginable: their own genome. Students process their own whole-exome sequencing (WES) data through a bioinformatics pipeline, identify variants in genes with known phenotypic effects, and grapple with the ethical implications of personal genomic knowledge.
@@ -13,7 +15,7 @@ The Sequencing Your Genome (SEQ) track is the culminating experience of the miRc
 - Develop a deep appreciation for the ethical dimensions of personal genomic data
 - Present findings about their own genome to peers and parents
 
-**Structure:** SEQ differs from CB and BTS in its emphasis on self-directed learning. As Dr. Lee explains on Day 1: "This genome camp is slightly different... It will be a little bit more your part." The first 30 minutes of each day feature a self-learning quiz where students work independently, without group leader guidance. The main camp sessions are more collaborative but still expect greater independence. The overall tone is more mature, reflecting the older student population and their accumulated experience.
+**Structure:** SEQ differs from CB and BTS in its emphasis on self-directed learning. Dr. Lee frames the camp as more student-driven, with greater independence expected from participants. The first 30 minutes of each day feature a self-learning quiz where students work independently, without group leader guidance. The main camp sessions are more collaborative but still expect greater autonomy. The overall tone is more mature, reflecting the older student population and their accumulated experience.
 
 ---
 
@@ -24,7 +26,7 @@ The Sequencing Your Genome (SEQ) track is the culminating experience of the miRc
 **Morning Session (Part 1)**
 
 *Main Topics:*
-- Camp context: "You guys are doing our miRcore summer camp for the past two weeks... this is August, so it seems like almost like you are being on entire summer with miRcore."
+- Camp context: Dr. Lee reflects on the students' journey across the full summer, noting that some have been part of the miRcore camp experience since June
 - How SEQ differs from CB and BTS: older students only, more self-directed, more independent work
 - Self-learning format introduction: first 30 minutes of each day are independent self-assessment
 - Pre-assessment quiz: baseline measurement of student knowledge before the week begins
@@ -38,7 +40,7 @@ The Sequencing Your Genome (SEQ) track is the culminating experience of the miRc
 - Receiving personal data: students receive their own FASTQ files
   - Data was generated from actual saliva or blood samples provided by the students prior to camp
   - Each student has unique data representing their individual genome
-  - Emphasis on data privacy: "sequencing your genome without sharing with anybody else"
+  - Emphasis on data privacy: students process their own genome without sharing it with anyone else
 
 *Key Concepts Introduced:*
 - Whole-exome sequencing as a targeted approach
@@ -64,7 +66,7 @@ The Sequencing Your Genome (SEQ) track is the culminating experience of the miRc
   - Examining log files: job resource usage (time, memory, CPU)
 
 *Key Concepts Introduced:*
-- Data quality control as the essential first step (reinforcing BTS: "cleaning data is probably 90% of your job")
+- Data quality control as the essential first step -- as reinforced throughout the camp, cleaning data is the majority of the work
 - Adapter contamination and its effects on downstream analysis
 - cutadapt as a preprocessing tool
 
@@ -145,7 +147,7 @@ The Sequencing Your Genome (SEQ) track is the culminating experience of the miRc
 
 *Main Topics:*
 - Recap of processing pipeline completed so far: FASTQ -> cutadapt -> Bowtie2 -> SAMtools -> BAM/BAI
-- The importance of clean data: "If you have a clean nice data, the rest is really good"
+- The importance of clean data -- if the input data is clean, downstream analysis becomes much more reliable
 - Discussion of data bias: lack of healthy/normal genome data vs. abundant patient data
 - **TAS2R38 gene deep dive: the bitter taste receptor**
   - TAS2R38: a gene encoding a bitter taste receptor on chromosome 7
@@ -217,7 +219,7 @@ The Sequencing Your Genome (SEQ) track is the culminating experience of the miRc
 
 *Main Topics:*
 - Review of TAS2R38 variant identification process
-- Students share results from their Day 3 practice: "How was looking at your own data set? Isn't it exciting?"
+- Students share results from their Day 3 practice, expressing excitement at working with their own data
 - **ABO blood type gene:**
   - ABO gene on chromosome 9: encodes a glycosyltransferase enzyme
   - Three main alleles: A, B, O
@@ -281,7 +283,7 @@ The Sequencing Your Genome (SEQ) track is the culminating experience of the miRc
   - **Professional confirmation:** Personal genome analysis is educational, not clinical
     - Students' results are NOT medical diagnoses
     - Clinical genetic testing requires CLIA-certified labs and genetic counselor interpretation
-    - Emphasis: "If you find something concerning, talk to a healthcare provider, do not self-diagnose"
+    - Emphasis: students are advised to consult a healthcare provider if they find anything concerning, rather than self-diagnosing
   - **Data security:**
     - Who has access to your genomic data?
     - miRcore's approach: students own their data, miRcore does not retain copies
@@ -319,7 +321,7 @@ The Sequencing Your Genome (SEQ) track is the culminating experience of the miRc
 - Post-camp survey: mirroring the pre-assessment from Day 1
   - Same or similar questions to measure growth over the week
   - Students can see how much their understanding has deepened
-- Framing: "You are actually a pioneer. This is really, really just new things we are trying to build together."
+- Framing: Dr. Lee positions the students as pioneers, emphasizing that this is genuinely new territory being built collaboratively
 - Final variant hunting and analysis:
   - Students complete their exploration of personal variants
   - Looking for additional interesting variants beyond the four core genes
@@ -327,7 +329,7 @@ The Sequencing Your Genome (SEQ) track is the culminating experience of the miRc
 - Slide creation for individual presentations:
   - Unlike CB (group presentations) and BTS (group research + group pitches), SEQ presentations have an individual component -- each student presents findings from their own genome
   - Presentation structure: introduce yourself, describe the pipeline, show your variants for each gene, explain the phenotype predictions, discuss what you learned about your own biology
-  - Guidance on what to share and what to keep private: "You choose what to present; you do not have to share anything you are not comfortable with"
+  - Guidance on what to share and what to keep private: students choose what to present and are not expected to share anything they are uncomfortable with
 
 *Hands-on Activities:*
 - Final data analysis
@@ -430,7 +432,7 @@ This is the defining feature of the SEQ track. Prior to camp, students provide b
 - A/B = Type AB
 - O/O = Type O
 
-**Why this gene matters:** Blood type is one of the most familiar genetic concepts, and most students already know their blood type (or can find out). Being able to determine their blood type from their DNA data provides a powerful validation experience: "My sequencing data correctly predicted something I already know about myself."
+**Why this gene matters:** Blood type is one of the most familiar genetic concepts, and most students already know their blood type (or can find out). Being able to determine their blood type from their DNA data provides a powerful validation experience -- the sequencing data correctly predicts something the student already knows about themselves.
 
 ---
 
@@ -477,7 +479,7 @@ Ethics is not a one-time lecture in the SEQ track -- it is woven throughout the 
 - Data is stored in the student's personal directory with standard HPC access controls
 - miRcore does not retain copies of student genomic data after the camp
 - The Citizen Scientist Sequencing Initiative (CSSI) represents miRcore's vision for a future where individuals own their genome data without it passing through commercial databases
-- Dr. Lee: "We hope that there is some possible way individual can own their own genome without sharing with anybody else including us"
+- Dr. Lee expresses the hope that individuals will eventually be able to own and manage their own genomic data without needing to share it with anyone, including the camp organizers
 
 ### Penetrance and Probabilistic Genetics
 - A recurring theme: having a variant does not mean you will develop the condition
@@ -498,7 +500,7 @@ Ethics is not a one-time lecture in the SEQ track -- it is woven throughout the 
 - Connection to the data ownership philosophy: if you control your data, you control who sees it
 
 ### The Right Not to Know
-- Implicit in the presentation guidelines: "You choose what to share; you do not have to share anything you are not comfortable with"
+- Implicit in the presentation guidelines: students choose what to share and are not required to disclose anything they are not comfortable with
 - Recognition that some students may discover variants they did not expect
 - Group leaders are trained to handle emotional reactions sensitively
 - The voluntary nature of sharing reinforces the principle that genomic information is deeply personal
@@ -558,7 +560,4 @@ The instructors are clearly aware that analyzing one's own genome can be emotion
 Many BTS skills (Linux, Bowtie2, SAMtools, IGV) are directly reused in SEQ, but applied to personal data. This repetition-with-variation reinforces technical skills while keeping the material fresh. Students who struggled with commands in BTS get a second opportunity to master them in SEQ, and students who found BTS easy are challenged by the larger dataset sizes and more nuanced interpretation required.
 
 ### Pioneer Framing
-Dr. Lee repeatedly frames SEQ students as pioneers: "You are actually a pioneer. This is really, really just new things we are trying to build together." This framing gives students a sense of significance and ownership over their experience, motivating deeper engagement with the material and the broader CSSI vision.
-
-### Community of Practice
-By the third week, students have formed genuine relationships with group leaders and peers. The transcripts show warmer, more relaxed interactions compared to CB Day 1 -- inside jokes, shared memories from previous weeks, and a deeper level of trust. This social capital enables more authentic discussions about the ethical and personal dimensions of genomic data.
+Dr. Lee repeatedly frames SEQ students as pioneers, emphasizing that they are exploring genuinely new territory and building something together. This framing gives students a sense of significance and ownership over their experience, motivating deeper engagement with the material and the broader CSSI vision.
